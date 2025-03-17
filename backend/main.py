@@ -23,3 +23,6 @@ app.include_router(todos)
 @app.get("/")
 def home():
     return {"message": "Welcome to the To-Do API"}
+
+
+#uvicorn backend.main:app --reload
