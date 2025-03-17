@@ -9,6 +9,7 @@ class TodoBase(BaseModel):
 class TodoCreate(TodoBase):
     pass
 
+
 class TodoUpdate(TodoBase):
     pass
 
